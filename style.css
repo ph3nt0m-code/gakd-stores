@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
     margin: 0;
@@ -7,29 +8,34 @@
     box-sizing: border-box;
 }
 
-#header{
+/*header section*/
+#header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px ;
-    background-color: beige;
+    padding: 0x;
+    background-color: #d49761;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
 }
 
 .logo {
     width: 70px;
     height: auto;
 }
+
 .cart-icon {
     width: 24px;
     height: 24px;
+    font-weight: 900;
+    color: rgb(128, 51, 128);
 }
 
 #nav-box {
     align-items: center;
     justify-content: center;
     display: flex;
-
 }
 
 #nav-box li {
@@ -37,27 +43,93 @@
     padding: 0 30px;
     position: relative;
 }
+
 #nav-box li a {
     text-decoration: none;
     padding: 0 -20px;
     font-weight: 600;
-    color: black;
+    color: #333333;
     transition: 0.5s ease;
-
 }
+
 #nav-box li a:hover,
- #nav-box li a.active {    color: orange;
-    
-
+#nav-box li a.active {
+    color: white;
 }
- #nav-box li a.active::after,
- #nav-box li a:hover::after {
+
+#nav-box li a.active::after,
+#nav-box li a:hover::after {
     content: "";
-    width:15% ;
+    width: 15%;
     height: 2px;
-    background: orange;
+    background: white;
     position: absolute;
     bottom: -2px;
     left: 30px;
-    
 }
+
+#hero {
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: bottom 90% left 200px;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: left;
+}
+
+.hero-text {
+    padding: 90px;
+}
+
+.hero-text1 {
+    color: white;
+    font-family: "league spartan";
+    font-size: 69px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.hlts1 {
+    color: #2b2b2b;
+}
+
+.hero-text2 {
+    color: #2b2b2b;
+    font-family: "league spartan";
+    font-size: 49px;
+    font-weight: 1000;
+}
+
+.hlts2 {
+    color: white;
+}
+.hero-text3 {
+    color: #2b2b2b;
+    font-family: "league spartan";
+    font-size: 50px;
+    font-weight:700;
+    padding-bottom: 14px;
+}
+
+.hero-text4 {
+    color: #2b2b2b;
+    font-family: "league spartan";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+#hero button  {   background: url('img/brush-swipe.png') no-repeat center/cover;
+  color:white;
+  padding: 14px 40px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size:19px;
+  font-weight: 1000;
+  font-style: italic;
+   font-family: 'Playfair';
+}
+
