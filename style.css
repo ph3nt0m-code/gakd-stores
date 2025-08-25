@@ -71,7 +71,7 @@
 #hero {
     background-image: url(img/hero.jpg);
     background-size: cover;
-    background-position: bottom 90% left 180px;
+    background-position: bottom 90% left 175px;
     height: 80vh;
     width: 100%;
     display: flex;
