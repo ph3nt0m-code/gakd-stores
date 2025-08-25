@@ -73,6 +73,7 @@
     background-size: cover;
     background-position: bottom 90% left 200px;
     height: 80vh;
+    padding: 0 30px 0 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
