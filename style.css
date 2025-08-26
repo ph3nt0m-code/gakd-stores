@@ -48,7 +48,7 @@
     text-decoration: none;
     padding: 0 -20px;
     font-weight: 600;
-    color: #333333;
+    color:                 MMM;
     transition: 0.5s ease;
 }
 
@@ -64,7 +64,7 @@
     height: 2px;
     background: white;
     position: absolute;
-    bottom: -2px;
+    bottom: -2px; 
     left: 30px;
 }
 
@@ -133,3 +133,20 @@
    font-family: 'Playfair';
 }
 
+#feature {
+
+}
+
+.feature-img1 {
+    width: 17%;
+    height: 17%; 
+    padding: 10PX;
+    border: 0;
+}
+#feature .fe-box {
+    width: 180PX;
+    text-align: center;
+    padding: 25px 15PX;
+
+
+}
