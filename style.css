@@ -235,7 +235,7 @@ padding: 10px 12px;
 border:#f6e7d4 1px solid;
 border-radius: 22px;
 margin: 15px 0;
-
+position: relative;
 }
 
 #product1 .pro:hover{
@@ -249,15 +249,84 @@ margin: 15px 0;
     cursor: pointer;
 }
 
-#product1 .pro .pro-details{
+#product1 .pro .des{
     text-align: start;
     padding: 10px 0;
 }
 
-#product1 .pro .pro-details .span{
-    font-size: 14px;
+#product1 .pro .des  span{
+    font-size: 12px;
+    color: #737888;
+}
+
+#product1 .pro .des i{
+    color: gold;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #d49761;
+    font-size: 16px;
+}
+
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #2f5d50;
+font-weight: 500;
+color: forestgreen;
+border: #f6e7d4 1px solid;
+position: absolute;
+bottom: 20px;
+right: 10px;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     background-image: url(img/b2.jpg);
+     width: 100%;
+     height: 40vh;
+        background-size: cover;
+        background-position: center;
+}
+
+#banner h4{
     color: #2b2b2b;
+    font-family: 'league spartan', sans-serif;
+    font-size: 20px;
     font-weight: 600;
-    padding-bottom: 6px;
-    display: block;
+    padding-bottom: 10px;
+   
+
+
+}
+#banner h2{
+    color: #2b2b2b;
+    font-family: 'league spartan', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+#banner button{
+    background-color: #2f5d50;
+    cursor: pointer;
+    padding: 20px ;
+}
+
+#banner span{
+    color: #d49761;
 }
